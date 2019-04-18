@@ -94,7 +94,7 @@ TypeId PieQueueDisc::GetTypeId (void)
                    MakeTimeChecker ())
     .AddAttribute ("STPIE",
                    "True to use Self tuning PIE",
-                   BooleanValue (true),
+                   BooleanValue (false),
                    MakeBooleanAccessor (&PieQueueDisc::m_stpie),
                    MakeBooleanChecker ())
     .AddAttribute ("Knrc",
